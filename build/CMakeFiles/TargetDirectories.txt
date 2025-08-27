@@ -1,0 +1,3 @@
+/home/litie/visual studio/parallAlgo/build/CMakeFiles/parall_algo.dir
+/home/litie/visual studio/parallAlgo/build/CMakeFiles/edit_cache.dir
+/home/litie/visual studio/parallAlgo/build/CMakeFiles/rebuild_cache.dir

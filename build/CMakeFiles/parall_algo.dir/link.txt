@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/parall_algo.dir/src/main.cpp.o -o parall_algo  /usr/local/lib/libbenchmark.a /usr/local/lib/libbenchmark_main.a /usr/local/lib/libbenchmark.a -lrt 

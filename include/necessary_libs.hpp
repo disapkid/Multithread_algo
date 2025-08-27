@@ -1,0 +1,11 @@
+#pragma once
+#include <iostream>
+#include <functional>
+#include <thread>
+#include <future>
+#include <vector>
+#include <numeric>
+#include <algorithm>
+#include <type_traits>
+#include <iterator>
+#include <stdexcept>
