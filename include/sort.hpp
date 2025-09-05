@@ -88,7 +88,7 @@ void async_sort(Iter begin, Iter end, int thread_num = -1) {
     std::advance(middleIter, mid);
 
     if(thread_num > 0) {
-        auto future = std::async(std::launch::async | std::launch::deferred, [=] () {
+        auto future = std::async([=] () {
             async_sort(begin, middleIter, thread_num - 1);
         });
         async_sort(middleIter, end, thread_num - 1);
@@ -122,7 +122,7 @@ void async_sort(Iter begin, Iter end, func Compare, int thread_num = -1) {
     std::advance(middleIter, mid);
 
     if(thread_num > 0) {
-        auto future = std::async(std::launch::async | std::launch::deferred, [=] () {
+        auto future = std::async([=] () {
             async_sort(begin, middleIter, Compare, thread_num - 1);
         });
         async_sort(middleIter, end, Compare ,thread_num - 1);
